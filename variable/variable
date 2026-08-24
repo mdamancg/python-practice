@@ -1,0 +1,16 @@
+student_name= "Aman"
+student_age= "19"
+student_branch= "cs"
+
+print(student_name,student_age,student_branch)
+
+student_mark= "99"
+student_mark= "100"
+print(student_mark)
+
+x=y=z=0
+print(x,y,z)
+
+student = "Rahul"
+student_name = "Rahul"
+batch="B.Tech"

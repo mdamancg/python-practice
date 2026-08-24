@@ -1,1 +1,54 @@
+Student_name= "AMAN"
+Student_age= 19
+Student_height= 67.6
+Whether_the_person_is_a_student= True
+Student_result= None
 
+print(type(Student_name))
+print(type(Student_age))
+print(type(Student_height))
+print(type(Whether_the_person_is_a_student))
+print(type(Student_result))
+
+a= 50
+b= 50.6
+c= "50"
+print(type(a))
+print(type(b))
+print(type(c))
+
+a= True
+b= "True"
+print(type(a))
+print(type(b))
+
+number_text = "25"
+number = int(number_text)
+print(type(number_text))
+
+product_name= "Agarwal sweets"
+product_quantity= 1000
+product_price= 799.9
+product_available= True
+product_discount= None
+print(type(product_available))
+print(type(product_name))
+print(type(product_quantity))
+print(type(product_discount))
+print(type(product_price))
+
+a= 10
+b= 10.0
+c= "10"
+d= True
+e= "True"
+f= None
+g= "None"
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))

@@ -1,1 +1,77 @@
+a=10
+b=3
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a//b)
+print(a**b)
 
+v=3
+u=2.5
+print(v+u)
+print(v-u)
+print(v*u)
+print(v/u)
+print(v%u)
+print(v//u)
+print(v**u)
+
+a=6
+b=9
+c=10
+Avg=(a+b+c)/3
+print("Average of three numbers is:",Avg)
+
+price = 100
+quantity = 3
+
+total = price * quantity
+
+print(total)
+
+number = 10
+if number % 2 == 0:
+    print("The number is even.")
+
+    number = 7
+if number % 2 != 0:
+    print("The number is odd.")
+
+    a=17
+    b= 7.6
+    print(a/b)
+    print(a//b)
+
+    a=-10
+b=-3
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a//b)
+print(a**b)
+
+a=10.7
+b=3.2
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a//b)
+print(a**b)
+
+# 1. Positive % Positive
+print(10 % 3)    # Output: 1
+
+# 2. Negative % Positive
+print(-10 % 3)   # Output: 2
+
+# 3. Positive % Negative
+print(10 % -3)   # Output: -2
+
+# 4. Negative % Negative
+print(-10 % -3)  # Output: -1

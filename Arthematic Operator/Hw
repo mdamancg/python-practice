@@ -75,3 +75,49 @@ print(10 % -3)   # Output: -2
 
 # 4. Negative % Negative
 print(-10 % -3)  # Output: -1
+
+print(10 + 5 * 2)     # Output: 20
+print(20 - 4 / 2)     # Output: 18.0
+print(10 + 20 / 5 * 2) # Output: 18.0
+print(2 + 3 * 4 ** 2) # Output: 50
+print(100 - 20 // 5)  # Output: 96
+
+print(10 + 5 * 2)     # Output: 20
+print((10 + 5) * 2)   # Output: 30
+print(20 - 10 / 2)     # Output: 15.0
+print((20 - 10) / 2)   # Output: 5.0
+print(2 + 3 * 4)       # Output: 14
+print((2 + 3) * 4)     # Output: 20
+#boolean Operators
+x = True
+y = False
+print(x+y)  # Output: True
+print(x-y)  # Output: True
+print(x*y)  # Output: False
+print(x/y)  # Output: Error (division by zero)
+print(x%y)  # Output: Error (modulus by zero)
+print(x//y) # Output: Error (floor division by zero)
+print(x**y) # Output: True
+print(True + 5)   # Output: 6
+print(False + 5)  # Output: 5
+print(True * 10)  # Output: 10
+print(False * 10) # Output: 0
+print(True - 5)   # Output: -4
+print(False - 5)  # Output: -5
+
+a= "md"
+b= "Aman"
+print(a+" "+b)  # Output: md Aman
+print(a*3)       # Output: mdmdmd
+#string + string
+#string - string
+#string * integer
+#string / string
+
+a= "Hello"
+b= "World"
+c= 3
+print(a + " " + b)  # Output: Hello World
+print(a-b)     # Output: Error (unsupported operand type(s) for -: 'str' and 'str')
+print(a*c)     # Output: HelloHelloHello
+print(a/b)     # Output: Error (unsupported operand type(s) for /: 'str' and 'str')

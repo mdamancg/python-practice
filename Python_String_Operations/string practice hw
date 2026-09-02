@@ -1,1 +1,257 @@
+from pickle import INT
 
+
+name="Aman"
+city='Delhi'
+Favorite_language="Python"
+print("name:",name )
+print("City:",city)
+print("Favorite language:", Favorite_language)
+
+empty_str = ""
+print("String:", empty_str)
+print("Length:", len(empty_str))
+print("Data Type:", type(empty_str))
+
+text="Python Programming"
+print(text[:])
+print(text[0])
+print(text[-1])
+print(text[2])
+print(text[-2])
+
+text="Programming"
+print(text[0])
+print(text[-1])
+print(text[6])
+print(text[-1])
+
+text = "Programming"
+print("Last character:", text[-1])
+print("Second-last character:", text[-2])
+print("Third-last character:", text[-3])
+print("First character:", text[-len(text)])
+
+full_name="MD Aman"
+print("first-character:", full_name[0])
+print("last-character:", full_name[-1])
+print("First character of last name:", full_name[6])
+
+text = "Python Programming"
+
+# 1. Extract "Python"
+print("Python:", text[0:6])
+
+# 2. Extract "Programming"
+print("Programming:", text[7:])
+
+# 3. Extract "Python Programming"
+print("Complete string:", text[:])
+
+# 4. First 5 characters
+print("First 5 characters:", text[:5])
+
+# 5. Last 5 characters
+print("Last 5 characters:", text[-5:])
+
+text="ABCDEFGHIJKL"
+print(text[::2])
+print(text[::3])
+print(text[1:8:2])
+print(text[::-1])
+
+text = "Python Programming"
+
+# 1. Last 5 characters
+print("Last 5 characters:", text[-5:])
+
+# 2. Last 10 characters
+print("Last 10 characters:", text[-10:])
+
+# 3. Characters from the end using a negative step (Reverse string)
+print("Reversed string:", text[::-1])
+
+text="Aman"
+print(text[0:4])
+print(text[:-3])
+print(text[:-1])
+print(text[2:4])
+
+word="Aman"
+text="Khan"
+print(len(word))
+print(len(text))
+
+text="Python Programming"
+print(len(text))
+
+first_name = "MD"
+last_name = "Aman"
+
+# Concatenation with space
+full_name = first_name + " " + last_name
+
+print("Full Name:", full_name)
+
+name="Aman"
+age= 17
+city='Delhi'
+Favorite_language="Python"
+print("My name is :" +name,"I am from:"+city,"My Favorite language:"+Favorite_language)
+
+age = 20
+
+print("Age: " + str(age))
+
+text="Hello"
+print(text*3)
+print(text*5)
+print(text*10)
+
+text="*"
+print(text*10)
+
+text="python programming language"
+print(text.upper())
+print(text.capitalize())
+print(text.lower())
+print(text.title())
+print(text.swapcase())
+
+a= "Python"
+b="python"
+print(a==b)
+
+text = "Python is a programming language"
+
+# 'in' operator ka use karke presence check karna
+print("'Python' in text:", "Python" in text)
+print("'programming' in text:", "programming" in text)
+print("'Java' in text:", "Java" in text)
+print("'language' in text:", "language" in text)
+
+text = "Python is a programming language"
+
+# find() method se positions find karna
+print("Position of 'Python':", text.find("Python"))
+print("Position of 'programming':", text.find("programming"))
+print("Position of 'language':", text.find("language"))
+print("Position of 'Java':", text.find("Java"))
+
+text = "Python is a programming language"
+
+# index() method se positions find karna
+print("Position of 'Python':", text.index("Python"))
+print("Position of 'programming':", text.index("programming"))
+print("Position of 'language':", text.index("language"))
+
+# Searching for 'Java' using index()
+try:
+    print("Position of 'Java':", text.index("Java"))
+except ValueError as e:
+    print("Error when searching 'Java':", e)
+
+    text = "banana"
+
+# count() method ka use karke characters count karna
+print("Count of 'a':", text.count("a"))
+print("Count of 'n':", text.count("n"))
+print("Count of 'b':", text.count("b"))
+
+filename = "student_notes.pdf"
+print(filename.startswith("student"))
+print(filename.endswith("pdf"))
+print(filename.endswith("notes"))
+
+text = "I am learning Java"
+print(text.replace("Java", "Python"))
+
+text = "apple apple apple"
+print(text.replace("apple","Mango"))
+
+text = "apple apple apple"
+print(text.replace("apple","Mango",1))
+
+text = "Python"
+print(text.upper())
+
+text = "   Python Programming   "
+print(text.strip())
+print(text.lstrip())
+print(text.rstrip())
+
+name = input("Enter your name: ")
+cleaned_name = name.strip()
+print("Cleaned name:", cleaned_name)
+
+
+text= "Python is easy"
+words=text.split()
+print(words)
+
+words = ["Python", "is", "easy"]
+result = " ".join(words)
+print(result)
+
+word=["Python", "is", "easy"]
+result1="-".join(word)
+result2="/".join(word)
+print(result1)
+print(result2)
+
+name="Aman"
+age= 17
+print(f"my name is: {name} and i am {age} years old")
+
+a = 10
+b = 20
+c= a + b
+print(f"Sum of {a} and {b} is: {c}")
+
+sentence = input("Enter your full name: ")
+cleaned_name = sentence.strip()
+print("Original input:", sentence)
+print("Cleaned name:", cleaned_name)
+print("Uppercase:", cleaned_name.upper())
+print("Lowercase:", cleaned_name.lower())
+print("Title case:", cleaned_name.title())
+print("Length:", len(cleaned_name))
+print("First character:", cleaned_name[0])
+print("Last character:", cleaned_name[-1])
+character = input("Enter a character to search: ")
+
+if character in cleaned_name:
+    print("Character found:", True)
+else:
+    print("Character found:", False)
+
+    sentence = input("Enter your full name: ")
+cleaned_name = sentence.strip()
+print("Original input:", sentence)
+print("Cleaned name:", cleaned_name)
+print("Uppercase:", cleaned_name.upper())
+print("Lowercase:", cleaned_name.lower())
+print("Title case:", cleaned_name.title())
+print("Length:", len(cleaned_name))
+print("First character:", cleaned_name[0])
+print("Last character:", cleaned_name[-1])
+character = input("Enter a character to search: ")
+
+if character in cleaned_name:
+    print("Character found:", True)
+else:
+    print("Character found:", False)
+
+a= input("Enter first name: ")
+b= input("Enter last name: ")
+c= input("Enter your city name: ")
+d=input("Enter your courses: ")
+e= input("Enter your age: ")
+full_name = f"{a} {b}"
+print("Full Name:", full_name)
+print("Title Case:", full_name.title())
+print("Uppercase:", full_name.upper())
+print("Lowercase:", full_name.lower())
+
+print(f"enter your age: {e}")
+print(f"Your courses: {d.replace(' ', ', ')}")

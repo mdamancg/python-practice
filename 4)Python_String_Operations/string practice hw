@@ -1,6 +1,4 @@
-from pickle import INT
-
-
+#Assignment
 name="Aman"
 city='Delhi'
 Favorite_language="Python"

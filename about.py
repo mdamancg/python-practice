@@ -1,6 +1,16 @@
-print("hello world")
-age=23
-age=24
-add=23
-age3=26
-print(age)
+Name=input("Enter your name:")
+Age=int(input("Enter your age:"))
+Lab= input("Enter your lab:")
+product_name= input("Enter your product name:")
+product_price= float(input("Enter your product price:"))
+quantity=int(input("Enter the quantity:"))
+total_price= product_price * quantity
+print("Your name is:", Name)
+print("Your age is:", Age)
+print("Your lab is:", Lab)
+print("Product name:", product_name)
+print("Product price:", product_price)
+print("Quantity:", quantity)
+print("Total price:", str(total_price))
+d=input(product_name + " is " + str(total_price) + " in total price. Do you want to buy it? (yes/no):")
+print("Your decision is:", d)

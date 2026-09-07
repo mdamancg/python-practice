@@ -1,1 +1,154 @@
+number=int(input("Enter your number:"))
+if number>=10:
+    print("Number is greter than 10.")
 
+Age=int(input("Enter your age:"))
+if Age>=18:
+    print("Adult")
+
+number=int(input("Enter your Number:"))
+if number>=0:
+    print("Number is positive.")
+
+marks=float(input("Enter your marks:"))
+if marks >= 40:
+    print("You are pass.")
+
+number=int(input("Enter your number:"))
+if number==0:
+    print("Zero")
+
+number=int(input("Enter your integer:"))
+
+if number>=0:
+    print("Number is positive.")
+else:
+    print("Number is negative.")
+
+Age=int(input("Enter your age:"))
+if Age>=18:
+    print("Adult")
+else:
+    print("Minor")
+
+number=int(input("Enter your number:"))
+if number%2==0:
+    print("Number is even.")
+else:
+    print("Number is odd.")
+
+marks=float(input("Enter your marks:"))
+if marks>=40:
+    print("Pass")
+else:
+    print("Fail")
+
+num1=int(input("Enter your number1:"))
+num2=int(input("Enter your number2:"))
+if num1>num2:
+    print("Number1 is greter than number 2")
+else:
+    print("Number 1 is less than Number2")
+
+marks=float(input("Enter your name:"))
+if marks>=90:
+    print("You got grade A")
+elif marks>=75:
+    print("B")
+elif marks>=60:
+    print("C")
+elif marks>=55:
+    print("D")
+else:
+    print("Fail")
+
+number=int(input("Enter your number:"))
+if number>=0:
+    print("Number is positive")
+elif number<0:
+    print("Number is negative")
+else:
+    print("Zero")
+
+user_number=int(input("Enter one number decide your day"))
+if user_number==1:
+    print("Monday")
+elif user_number==2:
+    print("Tuesday")
+elif user_number==3:
+    print("Wednesday")
+elif user_number==4:
+    print("Thursday")
+elif user_number==5:
+    print("Friday")
+elif user_number==6:
+    print("Saturday")
+elif user_number==7:
+    print("Sunday")
+else:
+    print("Enter number between 1 to 7")
+
+marks=int(input("Enter your Result marks:"))
+if marks>=90:
+    print("Excellent")
+elif marks>=60:
+    print("Good")
+elif marks>=40:
+    print("Bad")
+else:
+    print("Fail")
+
+number=int(input("Enter your number:"))
+if number==1:
+    print("Number is 1.")
+elif number==2:
+    print("Number is equal to 2")
+elif number==3:
+    print("Number is equal to 3")
+else:
+    print("Zero")
+
+age = 20
+if age >= 18:
+    if age <= 60:
+        print("Age is between 18 and 60")
+
+marks = int(input("Enter your marks: "))
+if marks >= 40:
+    if marks >= 75:
+        print("Good")
+    else:
+        print("Passed")
+else:
+    print("Failed")
+
+number=int(input("Enter your Number:"))
+if number>0:
+    if number>100:
+        print("Number is positive and greter than 100.")
+    else:
+        print("Positive but not greater than 100")
+else:
+    print("Number is not positive")
+
+
+age=int(input("Enter your Age here:"))
+if age>=18:
+    if age>=60:
+        print("You are under 18 and old")
+    else:
+        print("You are not Adult")
+else:
+    print("You are not eligible  for this.")
+
+
+number = int(input("Enter a number: "))
+if number != 0:
+    if number > 0:
+        print("Positive")
+    else:
+        print("Negative")
+else:
+    print("Zero")
+
+    

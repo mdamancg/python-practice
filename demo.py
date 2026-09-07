@@ -1,7 +1,10 @@
+gmail="amankhan9031@gmail.com"
+password=12345
 
-#a, b = map(int, input("Enter two numbers: ").split()[:2])
-#print(f"Your first number is {a} and your second number is {b}")
-print("Hello", end=" ")
-print("World")
-print("A", "B", "C", sep="-")
-
+if gmail=="amankhan9031887537":
+    if password==12345:
+        print("logged in")
+    else:
+        print("Password is incorrect")
+else:
+    print("Gmail is incorrect:")

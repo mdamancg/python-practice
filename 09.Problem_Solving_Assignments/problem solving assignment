@@ -283,3 +283,16 @@ elif (b > a and b < c) or (b < a and b > c):
 
 else:
     print("Second largest:", c)
+
+    unit=int(input("Enter your unit:"))
+if unit<=100:
+    print(f"Your bill is {unit*5}")
+elif unit<=200:
+    first_hundred=100*5
+    remaining_unit=(unit-100)*7
+    print(f"Your total bill is {first_hundred+remaining_unit}")
+else:
+    first_hundred=100*5
+    second_hundred=100*7
+    remaining_unit=(unit-200)*10
+    print(f"Your total bill is {first_hundred+second_hundred+remaining_unit}")

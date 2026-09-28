@@ -608,34 +608,38 @@
 # print(f"Your char type is {Position_type} and who heavy: {Status}")
 
 
-text=input("Enter your text here:")
-vowel=0
-consonant=0
+# text=input("Enter your text here:")
+# vowel=0
+# consonant=0
 
-for position in range(len(text)):
-    char=text[position]
-    if position%2==0:
-        position_type="Even"
-    else:
-        position_type="Odd"
+# for position in range(len(text)):
+#     char=text[position]
+#     if position%2==0:
+#         position_type="Even"
+#     else:
+#         position_type="Odd"
 
-    if char.lower() in "aeiou":
-        char_type="Vowel"
-        vowel+=1
-    elif char.isalpha:
-        char_type="Consonant"
-        consonant+=1
-    else:
-        char_type="Invalid data please enter character!!!"
+#     if char.lower() in "aeiou":
+#         char_type="Vowel"
+#         vowel+=1
+#     elif char.isalpha:
+#         char_type="Consonant"
+#         consonant+=1
+#     else:
+#         char_type="Invalid data please enter character!!!"
 
-        if vowel>consonant:
-            Status="Vowel Heavy"
-        elif vowel<consonant:
-            Status="Consonant Won"
-        elif vowel==consonant:
-            Status="Both are equal"
-        else:
-            Status="Error"
+#         if vowel>consonant:
+#             Status="Vowel Heavy"
+#         elif vowel<consonant:
+#             Status="Consonant Won"
+#         elif vowel==consonant:
+#             Status="Both are equal"
+#         else:
+#             Status="Error"
 
-        print(f"Character:{char}|Position:{position}|{position_type}|type:{char_type}|Who is most heavy {Status}")
+#         print(f"Character:{char}|Position:{position}|{position_type}|type:{char_type}|Who is most heavy {Status}")
 
+for i in range(6,0,-1):
+    for j in range(1,i+1):
+        print(i,end=" ")
+    print()

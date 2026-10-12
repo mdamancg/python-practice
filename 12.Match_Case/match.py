@@ -786,3 +786,12 @@ match choice:
 
     case _:
         print("Invalid Choice")
+
+#35
+print('''1 → Starters
+2 → Main Course
+3 → Desserts
+4 → Drinks''')
+
+order=input("Enter your order type here: ")
+category=int(input("Enter your category numbeer here: "))

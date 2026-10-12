@@ -100,7 +100,38 @@
 # else:
 #     print("Number is not zero")
 
-for i in range(1,101):
-    if i%7==0:
-        break
-    print(i)
+# for i in range(1,101):
+#     if i%7==0:
+#         break
+#     print(i)
+
+
+# for i in range(1,20):
+#     if i%2==0:
+#         continue
+#     print(i)
+
+# numbers = [10, -2, 30, -5, 40, -8]
+# for number in numbers:
+#     if number < 0:
+#         continue
+#     print(number)
+
+# for i in range(1,20):
+#     if i%3==0:
+#         continue
+#     print(i)
+
+# numbers = [5, 12, 8, 21, 30, 7]
+# for number in numbers:
+#     if number<=10:
+#         continue
+#     print(number)
+
+# number=int(input("Enter your number here: "))
+# if number>=0:
+#     pass
+
+
+
+

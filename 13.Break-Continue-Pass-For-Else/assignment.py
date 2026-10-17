@@ -308,7 +308,7 @@
 
 
 
-numbers = [-8, -3, 5, 12, 18, 24, 36]
+# numbers = [-8, -3, 5, 12, 18, 24, 36]
 
 # for num in numbers:
 #     if num < 0:

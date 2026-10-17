@@ -639,7 +639,17 @@
 
 #         print(f"Character:{char}|Position:{position}|{position_type}|type:{char_type}|Who is most heavy {Status}")
 
-for i in range(6,0,-1):
-    for j in range(1,i+1):
-        print(i,end=" ")
-    print()
+# for i in range(6,0,-1):
+#     for j in range(1,i+1):
+#         print(i,end=" ")
+#     print()
+
+def show_welcome():
+   a="I live java"
+   b="I love java"
+   a, b = a.replace("java", "python"), b.replace("java", "python")
+   print(a)
+   print(b)
+show_welcome()
+show_welcome()
+show_welcome()

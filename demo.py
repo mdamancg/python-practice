@@ -946,4 +946,87 @@
 #         print(result)
 # function()
 
-def outer()
+# def outer()
+#                                      recursive case
+# add=0
+# def counter_fun(n):
+#     global add
+#     add+=n
+#     if(n==10):
+#         return add
+#     return counter_fun(n+1)
+# print(counter_fun(1))
+
+# count=0
+# def counter_fun(n):
+#     global count
+#     count+=1
+#     if(count==5):
+#         return count
+#     counter_fun(n+1)
+# print(counter_fun(1))
+
+# count=0
+# def counter_fun(n):
+#     global count
+#     count+=1
+#     if(count==5):
+#         return count
+#     return counter_fun(n+1)
+# print(counter_fun(1))
+
+# add=0
+# def counter_fun(n):
+#     global add
+#     add+=n
+#     if(n==10):
+#         return add
+#     return counter_fun(n+1)
+# print(counter_fun(1))
+
+# def countdown(n):
+#     if n==0:
+#         print("Done")
+#         return
+#     print(n)
+#     countdown(n-1)
+# countdown(3)
+
+# def show(n):
+#     if n==0:
+#         print("End")
+#         return
+#     print("Start:",n)
+#     show(n-1)
+#     print("Back:",n)
+# show(2)
+
+# def count_up_to(n):
+#     if n==0:
+#         print(0)
+#         return
+#     count_up_to(n-1)
+#     print(n)
+# count_up_to(3)
+
+# def count_up_to(n):
+#     if n==0:
+#         print(0)
+#         return
+#     print(n)
+#     count_up_to(n-1)
+# count_up_to(3)
+
+# def sum_to(n):
+#     if n==0:
+#         return 0
+#     return n+sum_to(n-1)
+# print(sum_to(4))
+
+# def factorial(n):
+#     if n==0:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(5))
+# print(factorial(1))
+
